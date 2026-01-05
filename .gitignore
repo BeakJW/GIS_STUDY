@@ -1,0 +1,21 @@
+.DS_Store
+
+# QGIS autosave/backup
+*.qgz~
+*.qgs~
+*.qgd~
+
+# GeoPackage sidecars
+*.gpkg-wal
+*.gpkg-shm
+
+# Common raster sidecars
+*.tif.aux.xml
+*.ovr
+
+# General
+*.tmp
+*.log
+
+# GitHub blocks >100MB: exclude Road_Network shapefile set
+Road_Network.*
