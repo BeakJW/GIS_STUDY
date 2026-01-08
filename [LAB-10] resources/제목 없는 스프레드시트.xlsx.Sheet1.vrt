@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="제목 없는 스프레드시트-Sheet1">
+        <SrcDataSource relativeToVRT="1">제목 없는 스프레드시트.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="지진해일대피소명" src="지진해일대피소명" type="String"/>
+        <Field name="지진해일대피소구분" src="지진해일대피소구분" type="String"/>
+        <Field name="지진해일대피소유형" src="지진해일대피소유형" type="String"/>
+        <Field name="지진해일대피소유형구분" src="지진해일대피소유형구분" type="String"/>
+        <Field name="소재지도로명주소" src="소재지도로명주소" type="String"/>
+        <Field name="수용가능면적" src="수용가능면적" type="Real"/>
+        <Field name="최대수용인원수" src="최대수용인원수" type="Real"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Longitude" y="Latitude"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
